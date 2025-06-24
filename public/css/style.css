@@ -1,0 +1,166 @@
+body {
+    background-color: #bdbcbc; /* Gris claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
+.container {
+    background-color: #f7d9d9; /* Rosa suave */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+h1 {
+    color: #f78c8c; /* Rosa más intenso */
+    text-align: center;
+}
+
+/* Agrega más estilos a los botones en action-buttons */
+.action-buttons a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.action-buttons a:hover {
+    opacity: 0.8; /* Reduce la opacidad al pasar el mouse */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+.button-space {
+    display: inline-block;
+    width: 10px; /* Ajusta el ancho del espacio entre botones según tus preferencias */
+}
+
+.add-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.add-link a {
+    text-decoration: none;
+    color: #fff; /* Texto blanco */
+    background-color: #f78c8c; /* Rosa más intenso */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Espaciado entre los botones */
+    transition: background-color 0.3s ease;
+}
+
+.add-link a:hover {
+    background-color: #ffffff; /* Rosa más oscuro al pasar el mouse */
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f78c8c; /* Rosa más intenso */
+    color: #fff; /* Texto blanco */
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2e2e2; /* Gris claro para filas pares */
+}
+
+/* Estilo común para la barra de navegación */
+.navbar {
+    background-color: #fdadad !important; /* Rosa suave */
+}
+
+.navbar-toggler-icon {
+    background-color: #e74c3c; /* Rojo oscuro */
+}
+
+.navbar-icon {
+    max-height: 2rem; /* Puedes ajustar este valor según tus necesidades */
+    width: auto;
+    margin-right: 5px; /* Espacio entre la imagen y el texto */
+    vertical-align: middle;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f36868 !important; /* Texto blanco iconos #bdbcbc; */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff !important; /* Rosa más oscuro al pasar el mouse */
+}
+
+/* Estilo común para el formulario */
+.card {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.text-rosa {
+    color: #f78c8c; /* Rosa más intenso */
+}
+
+.text-gris {
+    color: #555; /* Texto gris */
+}
+
+/* Estilo común para el botón */
+.btn-primary {
+    background-color: #f78c8c; /* Rosa más intenso */
+    border-color: #f78c8c; /* Borde del mismo color que el fondo */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #f36868; /* Rosa más oscuro al pasar el mouse */
+}
+
+/* Estilo común para los íconos dentro del formulario */
+.fa-lg {
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+
+/* Estilo común para los campos del formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Borde gris */
+}
+
+.img-fluid.rounded-circle.logo {
+    width: 200px;
+    height: 210px;
+}
+
+.parrafo {
+    text-align: justify;
+}
+
+.parrafo2 {
+    text-align: justify;
+}
+
+.titulo {
+   /* font-family:  Woodland;*/
+   font-family: Symphony Script;
+
+}
